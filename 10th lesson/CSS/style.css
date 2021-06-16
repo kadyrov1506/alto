@@ -1,0 +1,486 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+
+header .header{
+    display: flex;
+    justify-content: space-between;
+    height: 93px;
+    align-items: center;
+    width: 1312px;
+}
+
+header .header .end{
+    display: flex;
+    width: 251px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .header .end p{
+    /* For Providers */
+
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 100% */
+
+
+    color: #0B4A72;
+}
+
+header .header .spans{
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+}
+
+header .header .spans span{
+    width: 24px;
+    height: 4px;
+    background-color:#0B4A72 ;
+}
+
+.section-one {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #FEF8F1;
+    height: 459px;
+
+}
+
+.section-one h2{
+    position: absolute;
+    top: 200px;
+    height: 231px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 80px;
+    /* or 111% */
+
+    text-align: center;
+    letter-spacing: 2.5px;
+
+    color: #0B4A72;
+}
+
+.section-one img{
+    position: absolute;
+    top: 459px;
+    background-color: #FEF8F1;
+}
+
+.bc-img{
+    background-image: url("../IMG/Rectangle.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #FEF8F1;
+    height: 523px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.bc-img p{
+    position: absolute;
+    top: 8px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    text-align: center;
+    letter-spacing: 0.75px;
+
+    color: #222222;
+}
+
+.bc-img button{
+    position: absolute;
+    height: 24px;
+    width: 261px;
+    top: 84px;
+   background: #E6F2B4;
+    border-radius: 38px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    color: #0B4A72;
+    border-style: none;
+}
+
+.started{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.started .started-h3{
+    position: absolute;
+    height: 60px;
+    top: 137px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+    letter-spacing: 0.75px;
+
+    color: #0B4A72;
+}
+
+.started .started-conteiner{
+    display: flex;
+    position: absolute;
+    height: 304px;
+    top: 295px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.started .started-conteiner .started-div{
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+    width: 325px;
+}
+
+.started .started-conteiner .started-div .started-img{
+    width:150px ;
+    height: 150px;
+}
+
+.started .started-conteiner .started-div .started-h4{
+    position: absolute;
+    height: 36px;
+    top: 150px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    letter-spacing: 0.35px;
+
+    color: #0B4A72;
+}
+
+.started .started-conteiner .started-div .started-p{
+    position: absolute;
+    height: 78px;
+    top: 203px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+
+    text-align: center;
+    letter-spacing: 0.84px;
+
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.video{
+    position: relative;
+    top: 855px;
+}
+
+.video .video-conteiner{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.video .left-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.video .video-conteiner .left-side button{
+    position: absolute;
+    top: 247px;
+    height: 50px;
+    width: 195px;
+    background: #EBF0F5;
+    border-radius: 38px;
+    border-style: none;
+}
+
+.video .video-conteiner .left-side .started-img{
+    /*position: relative;*/
+}
+
+.video .video-conteiner .right-side .video-h4{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    /* or 150% */
+
+    text-align: center;
+    letter-spacing: 0.35px;
+    color: #0B4A72;
+}
+
+.video .video-conteiner .right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.video .video-conteiner .right-side .video-p{
+    margin-top: 38px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 28px;
+    /* identical to box height, or 215% */
+    text-align: center;
+    letter-spacing: 0.44px;
+    color: #868AA2;
+}
+
+.deserve{
+    position: relative;
+    top: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.deserve .deserve-h3{
+    position: absolute;
+    height: 60px;
+    top: 137px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+    letter-spacing: 0.75px;
+
+    color: #0B4A72;
+}
+
+.deserve .deserve-conteiner{
+    display: flex;
+    position: absolute;
+    height: 304px;
+    top: 295px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.deserve .deserve-conteiner .deserve-div{
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+    width: 325px;
+}
+
+.deserve .deserve-conteiner .deserve-div .deserve-img{
+    width:150px ;
+    height: 150px;
+}
+
+.deserve .deserve-conteiner .deserve-div .deserve-h4{
+    position: absolute;
+    height: 36px;
+    top: 150px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    letter-spacing: 0.35px;
+
+    color: #0B4A72;
+}
+
+.deserve .deserve-conteiner .deserve-div .deserve-p{
+    position: absolute;
+    height: 78px;
+    top: 203px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+
+    text-align: center;
+    letter-spacing: 0.84px;
+
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.internet{
+    position: relative;
+    top: 1800px;
+}
+
+.internet .internet-conteiner{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.internet .internet-conteiner .left-side .internet-h4{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+    /* or 125% */
+    text-align: center;
+    letter-spacing: 0.75px;
+    color: #0B4A72;
+
+}
+
+.internet .internet-conteiner .left-side .internet-p{
+    margin-top: 27px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 26px;
+    /* or 153% */
+    text-align: center;
+    letter-spacing: 0.84px;
+    color: rgba(0, 0, 0, 0.7);
+
+}
+
+.internet .internet-conteiner .right-side .note{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 37px;
+}
+
+.internet .internet-conteiner .right-side .note p{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    /* or 128% */
+    letter-spacing: 0.56px;
+    color: #0B4A72;
+}
+
+.care{
+    position: relative;
+    top: 1950px;
+    display: flex;
+    justify-content: center;
+}
+
+.care .care-container{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.care .care-container h3{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+    /* or 125% */
+
+    text-align: center;
+    letter-spacing: 0.75px;
+
+    color: #0B4A72;
+}
+
+.care .care-container img{
+    margin-top: 120px;
+}
+
+.care .care-container p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    /* or 150% */
+
+    text-align: center;
+    letter-spacing: 0.35px;
+
+    color: #0B4A72;
+
+}
+
+
+
+
+
